@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.31)  29 MAR 2019 10:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.31)  30 MAR 2019 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -124,12 +124,32 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 (/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 )
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics
+.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.d
+ef
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
 (/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
@@ -143,35 +163,97 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@cnth=\count100
 \Gm@cntv=\count101
 \c@Gm@tempcnt=\count102
-\Gm@bindingoffset=\dimen112
-\Gm@wd@mp=\dimen113
-\Gm@odd@mp=\dimen114
-\Gm@even@mp=\dimen115
-\Gm@layoutwidth=\dimen116
-\Gm@layoutheight=\dimen117
-\Gm@layouthoffset=\dimen118
-\Gm@layoutvoffset=\dimen119
+\Gm@bindingoffset=\dimen114
+\Gm@wd@mp=\dimen115
+\Gm@odd@mp=\dimen116
+\Gm@even@mp=\dimen117
+\Gm@layoutwidth=\dimen118
+\Gm@layoutheight=\dimen119
+\Gm@layouthoffset=\dimen120
+\Gm@layoutvoffset=\dimen121
 \Gm@dimlist=\toks21
 ) (./template_Article.aux)
 \openout1 = `template_Article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 18.
 
 (/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/epstopdf-bas
+e.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/infwarerr.
+sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/kvdefineke
+ys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/ltxcmds.st
+y
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/kvoptions.st
+y
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/kvsetkeys.
+sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/etexcmds.s
+ty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/ifluatex.s
+ty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/pdftexcmds
+.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-
+sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -206,69 +288,75 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 19.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 20.
 (/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 19.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 20.
 
 
 (/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 19.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 20.
 
 
 (/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 19.
+(Font)              <14.4> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 19.
+(Font)              <10> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 19.
-LaTeX Font Info:    Try loading font information for U+msa on input line 19.
+(Font)              <7> on input line 20.
+LaTeX Font Info:    Try loading font information for U+msa on input line 20.
 
 (/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 19.
+LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 
 (/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 27.
+(Font)              <12> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 27.
+(Font)              <8> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 27.
+(Font)              <6> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 27.
+(Font)              <5> on input line 28.
+</Users/sammacintyre/Documents/StochRL/Loop.png, id=1, 718.685pt x 220.825pt>
+File: /Users/sammacintyre/Documents/StochRL/Loop.png Graphic file (type png)
+<use /Users/sammacintyre/Documents/StochRL/Loop.png>
+Package pdftex.def Info: /Users/sammacintyre/Documents/StochRL/Loop.png  used o
+n input line 36.
+(pdftex.def)             Requested size: 472.03123pt x 145.04071pt.
 
 [1
 
 {/Users/sammacintyre/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.m
-ap}] [2] [3]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 123.
+ap}] [2 </Users/sammacintyre/Documents/StochRL/Loop.png>] [3] [4]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 129.
 
 
 (/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 123.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 129.
 
-[4] (./template_Article.aux) ) 
+[5] (./template_Article.aux) ) 
 Here is how much of TeX's memory you used:
- 1603 strings out of 494562
- 22438 string characters out of 6174329
- 87649 words of memory out of 5000000
- 5252 multiletter control sequences out of 15000+600000
+ 2476 strings out of 494562
+ 36776 string characters out of 6174329
+ 105559 words of memory out of 5000000
+ 6068 multiletter control sequences out of 15000+600000
  51228 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 27i,10n,32p,697b,199s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,32p,697b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/sammacintyre/Library/TinyTeX/texmf-dist/f
 onts/enc/dvips/lm/lm-mathsy.enc}{/Users/sammacintyre/Library/TinyTeX/texmf-dist
 /fonts/enc/dvips/lm/lm-mathex.enc}{/Users/sammacintyre/Library/TinyTeX/texmf-di
@@ -287,10 +375,10 @@ eX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/sammacintyre/Library/Tin
 yTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></Users/sammacintyre/Library/Ti
 nyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></Users/sammacintyre/Library/T
 inyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on template_Article.pdf (4 pages, 175932 bytes).
+Output written on template_Article.pdf (5 pages, 205921 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
