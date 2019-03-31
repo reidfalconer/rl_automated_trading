@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.31)  31 MAR 2019 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.31)  31 MAR 2019 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,13 +321,13 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 25.
+(Font)              <12> on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 25.
+(Font)              <8> on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 25.
+(Font)              <6> on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 25.
+(Font)              <5> on input line 29.
 
 [1
 
@@ -337,17 +337,17 @@ ap}]
 File: /Users/sammacintyre/Documents/StochRL/Loop.png Graphic file (type png)
 <use /Users/sammacintyre/Documents/StochRL/Loop.png>
 Package pdftex.def Info: /Users/sammacintyre/Documents/StochRL/Loop.png  used o
-n input line 45.
+n input line 50.
 (pdftex.def)             Requested size: 472.03123pt x 145.04071pt.
  [2] [3 </Users/sammacintyre/Documents/StochRL/Loop.png>] [4] [5]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 138.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 143.
 
 
 (/Users/sammacintyre/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 138.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 143.
 
 [6] [7] [8] (./template_Article.aux) ) 
 Here is how much of TeX's memory you used:
@@ -357,7 +357,7 @@ Here is how much of TeX's memory you used:
  6068 multiletter control sequences out of 15000+600000
  51228 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,10n,32p,876b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,32p,1095b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/sammacintyre/Library/TinyTeX/texm
 f-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/Users/sammacintyre/Library/TinyTeX/te
 xmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/Users/sammacintyre/Library/TinyTeX/
@@ -376,7 +376,7 @@ ry/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/sammacintyre/Lib
 rary/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></Users/sammacintyre/Li
 brary/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></Users/sammacintyre/L
 ibrary/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on template_Article.pdf (8 pages, 217264 bytes).
+Output written on template_Article.pdf (8 pages, 217398 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream

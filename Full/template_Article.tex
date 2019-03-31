@@ -20,13 +20,18 @@
 \maketitle
 
 \section{Motivation}
-Reinforcement Learning(RL) is considered as a third paradigm alongside unsupervised and supervised learning. But nevertheless, unlike the other approaches RL considers the whole problem of goal-directed agent that interacts in an uncertain environment. This involves learning what is necessary to do in order to maximize a numerical reward signal. 
+Reinforcement Learning (RL) is considered as a third paradigm alongside unsupervised and supervised learning. Nevertheless, unlike the other approaches, RL considers the whole problem of a goal-directed agent that interacts in an uncertain environment. This involves learning what actions are necessary to take in order to maximize a numerical reward signal. 
 
-The most important distinguishing features of a RL problem are: 1. they behave as closed-loop problems given that its learned actions influence later inputs, 2. learners must try different operations to discover which strategy yields the most reward, and 3. actions may affect next situations and all subsequent rewards.\footnote{Sutton and Barto, 2014}
+The most important distinguishing features of a RL problem are:
+\begin{enumerate}
+	\item They behave as closed-loop problems given that its learned actions influence later inputs
+	\item Learners must try different operations to discover which strategy yields the most reward
+	\item Actions may affect next situations and all subsequent rewards\footnote{Sutton and Barto, 2014}
+\end{enumerate}
 
-Among its main applications are: resources management in computer clusters, games, traffic light control, robotics, etc. The aim of this project is to apply the RL techniques to make decisions in the stock market given that it involves the interaction of an active agent that has to make decisions based in imperfect information environment while is interacting with other market participants. Some previous findings indicate that RL can be successfully applied to the portfolio problem and its performance exceeds the supervised learning approach\footnote{Neuneier, 1996} and Q-learning algorithm operates better than kernel-based methods\footnote{Bertolutzzo and Corazza, 2012}.
+Among its main applications are: resources management in computer clusters, games, traffic light control, robotics, etc. The aim of this project is to apply the RL techniques to make decisions in the stock market given that it involves the interaction of an active agent that has to make decisions based in imperfect information environment while also interacting with other market participants. Some previous findings indicate that RL can be successfully applied to the portfolio problem and its performance exceeds the supervised learning approach\footnote{Neuneier, 1996} and Q-learning algorithm operates better than kernel-based methods\footnote{Bertolutzzo and Corazza, 2012}.
 
-The approach in this paper to the stock market prediction problem is to apply the Q-learning algorithm that is a RL method that uses the principles of Dynamic Programming. The paper is organized with the following sections: first Data, the explanation of stock market data utilized for the purpose of analysis; follow by Methodology, an overview of what is Reinforcement Learning, Q-learning and formulation of the problem; next section Results, talks about the implementation of RL to the stock market problem and obtained results; and the last section Conclusion, explains findings and conclusions of the project.  
+The approach in this paper to the stock market prediction problem is to apply the Q-learning algorithm that is a RL method that uses the principles of Dynamic Programming. The paper is organized with the following sections: Motivation followed by Methodology, an overview of what is Reinforcement Learning, Q-learning and formulation of the problem; next section Results, talks about the implementation of RL to the stock market problem and obtained results; and the last section Conclusion, explains findings and conclusions of the project.  
 
 
 
@@ -163,11 +168,16 @@ Despite the algorithm performing well, the \textit{Buy and Hold} strategy also p
 
 To highlight the strength of Q-learning more effectively, we compared the algorithms behaviour on a more volatile stock, where \textit{Buy and Hold} should be less effective.
 
-One of the noticeable strengths of the Q-Learning approach is its control of the volatility (SEE TABLE), in a practical setting, this would be an attractive feature for a potential investor.
+One of the noticeable strengths of the Q-Learning approach is its control of the volatility (captured by the Sharpe Ratio). The Sharpe ratio is defined as:
+$$
+\text {Sharpe Ratio} = \frac { R _ { p } - R _ { f } } { \sigma _ { p } }
+$$
+where $R_{f}$ is the risk free rate (assumed to be 8\%), $R_{p}$ the return of the portfolio and $\sigma_{p}$ is the standard deviation of the portfolio. A larger Sharpe Ratio indicates that the portfolio achieves a better return for its volatility.
+In a practical setting, this would be an attractive feature for a potential investor.
 
-\subsection{Weaker stock comparison}
+\subsection{Non-trending stock comparison}
 
-To illustrate how Q-Learning can out perform a \textit{Buy and Hold} strategy, we selected a stock with a less favourable trend over the past 10 years (WWL - Whiting Petroleum Corp.). Notably, the Q-learning algorithm clearly learns to buy low and sell high from its training, and out-performs \textit{Buy and Hold} dramatically.
+To illustrate how Q-Learning can out perform a \textit{Buy and Hold} strategy, we selected a stock with a less notable trend over the past 10 years (WWL - Wawel). Notably, the Q-learning algorithm clearly learns to buy low and sell high from its training, and out-performs \textit{Buy and Hold} dramatically.
 
 
 \section{Conclusion}
