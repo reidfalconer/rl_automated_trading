@@ -1,9 +1,10 @@
-\BOOKMARK [1][-]{section.1}{Motivation}{}% 1
-\BOOKMARK [1][-]{section.2}{Methodology}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Overview}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Q-Learning}{section.2}% 4
-\BOOKMARK [3][-]{subsubsection.2.2.1}{Deep Q Learning}{subsection.2.2}% 5
-\BOOKMARK [2][-]{subsection.2.3}{Problem formulation - Algorithmic Trading}{section.2}% 6
-\BOOKMARK [1][-]{section.3}{Results}{}% 7
-\BOOKMARK [2][-]{subsection.3.1}{Non-trending stock comparison}{section.3}% 8
-\BOOKMARK [1][-]{section.4}{Conclusion}{}% 9
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Reinforcement Learning}{}% 2
+\BOOKMARK [1][-]{section.3}{Q-Learning}{}% 3
+\BOOKMARK [1][-]{section.4}{Deep Q Learning}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Problem Formulation - Algorithmic Trading}{section.4}% 5
+\BOOKMARK [1][-]{section.5}{Data, Settings and Results}{}% 6
+\BOOKMARK [2][-]{subsection.5.1}{Data and Settings}{section.5}% 7
+\BOOKMARK [2][-]{subsection.5.2}{Results}{section.5}% 8
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 9
+\BOOKMARK [1][-]{section.7}{References}{}% 10

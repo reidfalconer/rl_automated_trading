@@ -1,0 +1,18 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{Bertoluzzo \harvardand\ Corazza}{2012}{bertoluzzo2012testing}
+Bertoluzzo, F. \harvardand\ Corazza, M.  \harvardyearleft 2012\harvardyearright
+  , `Testing different reinforcement learning configurations for financial
+  trading: Introduction and applications', {\em Procedia Economics and Finance}
+  {\bf 3},~68--77.
+
+\harvarditem{Neuneier}{1996}{neuneier1996optimal}
+Neuneier, R.  \harvardyearleft 1996\harvardyearright , Optimal asset allocation
+  using adaptive dynamic programming, {\em in} `Advances in Neural Information
+  Processing Systems', pp.~952--958.
+
+\harvarditem[Sutton et~al.]{Sutton, Barto et~al.}{1998}{sutton1998introduction}
+Sutton, R.~S., Barto, A.~G. et~al.  \harvardyearleft 1998\harvardyearright ,
+  {\em Introduction to reinforcement learning}, Vol. 135, MIT press Cambridge.
+
+\end{thebibliography}

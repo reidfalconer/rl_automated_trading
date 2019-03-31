@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: trading_bot.aux
+The style file: agsm.bst
+Database file #1: smo.bib.bib
+You've used 3 entries,
+            2909 wiz_defined-function locations,
+            657 strings with 5250 characters,
+and the built_in function-call counts, 10445 in all, are:
+= -- 1671
+> -- 141
+< -- 1
++ -- 772
+- -- 42
+* -- 866
+:= -- 2136
+add.period$ -- 3
+call.type$ -- 3
+change.case$ -- 41
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 57
+empty$ -- 109
+format.name$ -- 53
+if$ -- 1883
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 12
+num.names$ -- 31
+pop$ -- 18
+preamble$ -- 1
+purify$ -- 45
+quote$ -- 0
+skip$ -- 48
+stack$ -- 0
+substring$ -- 2320
+swap$ -- 14
+text.length$ -- 43
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 10
+warning$ -- 0
+while$ -- 68
+width$ -- 0
+write$ -- 42
