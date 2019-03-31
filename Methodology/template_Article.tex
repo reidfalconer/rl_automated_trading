@@ -142,12 +142,21 @@ In our primary model, the initial $balance_{0}$ is set to \$1000 and $price_{0}$
 
 \section{Results}
 
+Our neural network was set-up to learn from a 200 length rolling window (history) and as such, each state $S_{t}$ is a $200+2$ dimensional vector containing the history, the current budget ($balance_{t}$) and the current number of stocks held ($holdings_{t}$).
+
+To ensure that the Q function was being learned in the correct way and trending towards an optimal policy, we train the neural network over multiple epochs. From the plot below, the final portfolio value achieved continues to increase, signalling convergence towards an optimal policy. The hyper-parameters were tweaked to derive maximum gain. (PLOT)
+
 To evaluate the performance of the algorithm, we compared it to a standard \textit{Buy and Hold} strategy and to a randomised action strategy. The plots of the portfolio value over time below clearly demonstrate the superiority of Q-Learning, achieving a final portfolio profit of XXXX.
 
 Despite the algorithm performing well, the \textit{Buy and Hold} strategy also performs similarly as AAPL is a strong stock with a stable upward trend.
 
 To highlight the strength of Q-learning more effectively, we compared the algorithms behaviour on a more volatile stock, where \textit{Buy and Hold} should be less effective.
 
-\subsection{title}
+\subsection{Weaker stock comparison}
+
+To illustrate how Q-Learning can out perform a \textit{Buy and Hold} strategy, we selected a stock with a less favourable trend over the past 10 years (WWL - Whiting Petroleum Corp.). Notably, the Q-learning algorithm clearly learns to buy low and sell high from its training, and out-performs \textit{Buy and Hold} dramatically.
+
+
+
 
 \end{document}
