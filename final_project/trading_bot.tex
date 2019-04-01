@@ -85,14 +85,13 @@
 	
 	\begin{frontmatter}  %
 		
-		\title{THE TRADING BOT\ \vspace{0.5cm} \large \\
-			REINFORCEMENT LEARNING FOR AUTOMATED TRADING
+		\title{REINFORCEMENT LEARNING FOR AUTOMATED TRADING
 		}
 		
 		\author[Add1]{Reid Falconer}
-		\ead{reid.falconer@bracelonagse.eu}
+		\ead{reid.falconer@barcelonagse.eu}
 		
-		\author[Add1]{Sam MacIntyr}
+		\author[Add1]{Sam MacIntyre}
 		\ead{sam.macintyre@barcelonagse.eu}
 		
 		\author[Add1]{Hector Cano}
@@ -117,7 +116,7 @@
 		
 		\begin{keyword}
 			\footnotesize{
-				Line Search \sep  Gradient Descent \sep Newton's Method \\ \vspace{0.3cm}
+				Reinforcement Learning \sep  Deep Q-Learning \sep Automated Trading \sep Neural Networks\\ \vspace{0.3cm}
 				%\textit{JEL classification} L250 \sep L100
 			}
 		\end{keyword}
@@ -127,18 +126,18 @@
 	\headsep 25pt % So that header does not go over title
 
 \section{Introduction}
-Algorithmic trading for stocks is attractive for both researchers and market practitioners. Existing approaches for algorithmic trading can be categorised into knowledge-based methods and machine learning (ML) based methods. Knowledge-based methods design trading strategies based on either financial research or trading experience; ML-based methods, in contrast, learn trading strategies from the market data in history. A distinct advantage of the ML-based methods is that they can discover profitable patterns that are yet known to people. 
+Algorithmic trading for stocks is attractive for both researchers and market practitioners. Existing approaches for algorithmic trading can be categorised into knowledge-based methods and machine learning (ML) based methods. Knowledge-based methods design trading strategies based on either financial research or trading experience; ML-based methods, in contrast, learn trading strategies from the historical market data. A distinct advantage of the ML-based methods is that they can discover profitable patterns that are not yet known to people. 
 
-Among various ML methods, reinforcement learning (RL) is particularly exciting and is considered as a third ML paradigm alongside unsupervised and supervised learning. Nevertheless, unlike the other approaches, RL considers the whole problem of a goal-directed agent that interacts in an uncertain environment. This approach involves learning what actions are necessary to take in order to maximise a numerical reward signal. 
+Among various ML methods, reinforcement learning (RL) is particularly exciting and is considered a third ML paradigm alongside unsupervised and supervised learning. Nevertheless, unlike the other approaches, RL considers the whole problem of a goal-directed agent that interacts in an uncertain environment. This approach involves learning what actions are necessary to take in order to maximise a numerical reward signal. 
 
-The most important distinguishing features of an RL problem are:
+The most important distinguishing features of a RL problem are:
 \begin{enumerate}
 	\item They behave as closed-loop problems given that its learned actions influence later inputs
 	\item Learners must try different operations to discover which strategy yields the most reward
 	\item Actions may affect next situations and all subsequent rewards \citep{sutton1998introduction}
 \end{enumerate}
 
-Among its main applications are: resources management in computer clusters, games, traffic light control and robotics. This project aims to apply RL techniques to make decisions in the stock market given that it involves the interaction of an active agent that has to make decisions based on imperfect information environment while also interacting with other market participants. Some previous findings indicate that RL can be successfully applied to the portfolio problem and its performance exceeds the supervised learning approach \citep{neuneier1996optimal} and Q-learning algorithm operates better than kernel-based methods \citep{bertoluzzo2012testing}.
+Among its main applications are: resources management in computer clusters, games, traffic light control and robotics \cite{mnih2013playing}. This project aims to apply RL techniques to make decisions in the stock market given that it involves the interaction of an active agent that has to make decisions based on an imperfect information environment while also interacting with other market participants. Some previous findings indicate that RL can be successfully applied to the portfolio problem and its performance exceeds the supervised learning approach \citep{neuneier1996optimal} and Q-learning algorithm operates better than kernel-based methods \citep{bertoluzzo2012testing}.
 
 In this paper, we apply the deep Q-learning approach to algorithmic trading. Our goal is to build a deep Q-learning system that determines when to buy, sell or hold based on the current and historical market data. Our experiments on
 the both Apple (AAPL) and Wawel (WWL) stocks demonstrate that the deep Q-learning system is highly effective and that the deep Q-learning model outperforms the benchmarks such as a random decision policy and a buy and hold strategy.
@@ -146,6 +145,7 @@ the both Apple (AAPL) and Wawel (WWL) stocks demonstrate that the deep Q-learnin
 The paper is organised as follows: Firstly, a conceptual framework is presented, highlighting the underlying principles of reinforcement learning. Section 3 describes the Q-learning approach, and Section 4 presents the implementation details of the deep Q-learning system. Section 5 presents the data, settings and results. Finally, Section 6 concludes.
 
 \section{Reinforcement Learning}
+
 Before delving into the specifics of employing reinforcement learning to the problem of automated trading, it will be informative to discuss the general theory and its underlying principles. 
 
 Reinforcement learning aims to maximise a given reward signal by undertaking certain actions (in a restricted space). In this framework, an agent must take the state of the environment as input and take actions to alter the future state. A measurable goal related to the environment is also necessary for the problem formulation. Beyond this, each reinforcement learning problem contains four sub-elements: a \textit{policy}, a \textit{reward signal} and a \textit{value function} \citep{sutton1998introduction}.
@@ -161,6 +161,9 @@ In an ideal situation, we would have access to the value function directly in ta
 \includegraphics[clip, angle=0, width=12cm]{figures/Loop.png}
 \label{fig:1}
 \end{figure}
+\begin{center}
+	{Source: \cite{sutton1998introduction}}
+\end{center}
 
 At a sequence of discrete time steps $t = 0,1,2,3...$, the agent interacts with the environment. At each step $t$, the agent receives state information $S _ { t } \in \mathcal{S}$ and performs an action $A _ { t } \in \mathcal { A } ( s )$. As a consequence of the action, the agent receives a reward $R _ { t + 1 } \in \mathcal { R } \subset \mathbb { R }$ and transitions to a new state $S _ { t + 1 }$.
 
@@ -206,14 +209,17 @@ Q-Learning is a technique whereby the value functions are repeatedly estimated b
 
 \section{Q-Learning} 
 
-Q-learning attempts to estimate $q_{*}$ (optimal action-value function) without any regard for the policy followed. From a high-level perspective, The Q-Learning algorithm proceeds by randomly initialising $Q$, perform actions, measure reward and update $Q$ accordingly. The final output after a training period should be a stable approximation of the $q_{*}$.
+Q-learning attempts to estimate $q_{*}$ (optimal action-value function) without any regard for the policy followed. From a high-level perspective, the Q-Learning algorithm proceeds by randomly initialising $Q$, perform actions, measure reward and update $Q$ accordingly (see Figure \ref{fig:ql}). The final output after a training period should be a stable approximation of the $q_{*}$.
 
 \begin{figure}[h!]
 	\centering
 	\caption{Q-Learning Algorithm}
 	\includegraphics[clip, angle=0, width=13cm]{figures/psudo_code.png}
-	\label{fig:1}
+	\label{fig:ql}
 \end{figure}
+\begin{center}
+	{Source: \cite{sutton1998introduction}}
+\end{center}
 
 Notice the Bellman equation appearing in the update phase of the algorithm.
 
@@ -234,7 +240,7 @@ In general, a partition of the data is used to train the neural network and appr
 A neural network with two hidden layers is implemented using Tensorflow\footnote{TensorFlow is a free and open-source software library for dataflow and differentiable programming across a range of tasks.} in our case.
 
 \subsection{Problem Formulation - Algorithmic Trading}
-Now we must formulate the trading problem as a Markov Decision Process and define the states, actions and rewards.
+Now we must formulate the trading problem as a Markov Decision Process and define the states, actions and rewards \citep{xiong2018practical}.
 
 \begin{itemize}
 	\item State: $\mathcal{S} = \{prices,holdings,balance\} $ where $prices$ refers to the current prices of all the stocks in our portfolio, $holdings$ the quantity of each stock held and $balance$ as the total portfolio value. In our simple variant, we are only trading one stock but include a history of prices also (default 200)
@@ -244,6 +250,8 @@ Now we must formulate the trading problem as a Markov Decision Process and defin
 	\item Action-value function: $q_{\pi}(s,a)$ as defined above. The expected reward we obtain by following policy $\pi$, choosing action $A$ while in state $S$. The action-value function is approximated by a neural network.
 \end{itemize}
 
+
+
 No transaction cost is considered in this study, and the algorithmic trader can only trade with a single stock, Apple (AAPL) or Wawel (WWL). Furthermore, a negative portfolio is not permissible ($balance_{t} \geq 0$ for all $t$) and the trader can only sell owned stock ($holdings_{t} \geq 1$). In our primary model, the initial $balance_{0}$ is set to \$1000 and $price_{0}$ to the price of the stock at our chosen start time $t_{0}$ 
 
 \section{Data, Settings and  Results}
@@ -252,7 +260,7 @@ The proposed deep Q-learning system is evaluated on two stocks: Apple (AAPL) and
 
 \subsection{Data and Settings}
 
-The databases used in the experiment involves nine years of daily data on Apple and Wawel stocks\footnote{All data was downloaded using Yahoo finance}, ranging from  2010-01-01 through 2019-03-01. The databases are divided into training data sets (2010-01-01 --- 2012-04-13) and test sets (2012-04-16 --- 2019-02-28). Only the daily closing price is used in this study, though other features can be easily incorporated into the model.
+The databases used in the experiment involve nine years of daily data on Apple and Wawel stocks\footnote{All data was downloaded using Yahoo finance}, ranging from  2010-01-01 through 2019-03-01. The databases are divided into training data sets (2010-01-01 --- 2012-04-13) and test sets (2012-04-16 --- 2019-02-28). Only the daily closing price is used in this study, though other features can be easily incorporated into the model.
 
 We compare the deep Q-learning system with two benchmark strategies: a random decisions policy (RAND) and a buy-and-hold (BH) strategy. For deep Q-learning, the training datasets are used to initialise the deep Q-network, and then the system runs in an online fashion where trading decision making and model adaptation are conducted simultaneously. For the Q-learning part, the discount factor is set to $\gamma =  0.5$. For the deep-learning part, the architecture of the deep Q-network involves four layers in total (two are hidden). The input units (features) are composed by the current budget ($balance_{t}$), the current number of stocks held ($holdings_{t}$) and 200 days of stock history while the output units correspond to the three actions in trading (see Figure \ref{fig_ss_nn}). The learning rate for Q-network is 0.01, and the training stops after 5 epochs. Furthermore, we introduce a new hyper-parameter $\epsilon$ (set at $\epsilon = 0.9$) to keep our solution from getting ``stuck'' when applying the same action over and over. Thus the algorithm exploits the best option with probability $\epsilon$ and explores a random option with probability $1 - \epsilon$.
 	
@@ -265,22 +273,22 @@ We compare the deep Q-learning system with two benchmark strategies: a random de
 	\end{center} 
 \end{figure}
 
-As mentioned above, to ensure that the Q function is being learned correctly and trending towards an optimal policy, we train the neural network over five epochs. From the plot below, the final portfolio value achieved continues to increase, signalling convergence towards an optimal policy. The hyper-parameters were tuned to derive maximum gain. 
+As mentioned above, to ensure that the Q function is being learned correctly and trending towards an optimal policy, we train the neural network over five epochs. From the plot below (Figure \ref{fig:conver}), the final portfolio value achieved continues to increase, signalling convergence towards an optimal policy. The hyper-parameters were tuned to derive maximum gain. 
 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\caption{Illustrative convergence of the deep Q-network}
 	\includegraphics[clip, angle=0, width=10cm]{figures/training.png}
-	\label{fig:1}
+	\label{fig:conver}
 \end{figure}
 
 \subsection{Results}
 
-The results of the three trading approaches (BH, RAND, and Deep Q-learning) on the AAPL test set are presented in Figure \ref{fig:aapl}), and the results on the WWL test set are shown in Figure \ref{fig:wwl}. In each figure, the green line illustrates the Deep Q-learning decision policy while the red and blue lines depict the BH and RAND strategies respectively. It can be seen that on both of the two test sets, the deep Q-learning system accumulates more value than the other two systems. A more detailed numerical comparison is shown in Table \ref{table-1} where we report two widely used measures for stock trading: accumulated return and sharp ratio. The Sharpe ratio is defined as:
+The results of the three trading approaches (BH, RAND, and Deep Q-learning) on the AAPL test set are presented in Figure \ref{fig:aapl}, and the results on the WWL test set are shown in Figure \ref{fig:wwl}. In each figure, the green line illustrates the Deep Q-learning decision policy while the red and blue lines depict the BH and RAND strategies respectively. It can be seen that on both of the two test sets, the deep Q-learning system accumulates more value than the other two systems. A more detailed numerical comparison is shown in Table \ref{table-1} where we report two widely used measures for stock trading: accumulated return and the Sharpe ratio. The Sharpe ratio is defined as:
 $$
 \text {Sharpe Ratio} = \frac { R _ { p } - R _ { f } } { \sigma _ { p } }
 $$
-where $R_{f}$ is the risk-free rate (assumed to be 8\%), $R_{p}$ the return of the portfolio and $\sigma_{p}$ is the standard deviation of the portfolio. A larger Sharpe Ratio indicates that the portfolio achieves a better return for its volatility. In a practical setting, this would be an attractive feature for a potential investor. Thus, it can be seen that our deep Q-learning system outperforms the other two methods in terms of total return and the sharp ratio.
+where $R_{f}$ is the risk-free rate (assumed to be 8\%), $R_{p}$ the return of the portfolio and $\sigma_{p}$ is the standard deviation of the portfolio. A larger Sharpe Ratio indicates that the portfolio achieves a better return for its volatility. In a practical setting, this would be an attractive feature for a potential investor. Thus, it can be seen that our deep Q-learning system outperforms the other two methods in terms of total return and the Sharpe Ratio.
 
 \begin{table}[h!]
 	\centering

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.2)  31 MAR 2019 22:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.2)  31 MAR 2019 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1202,12 +1202,6 @@ s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 ))) (./trading_bot.aux
 
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
 LaTeX Warning: Label `my-label' multiply defined.
 
 )
@@ -1314,12 +1308,12 @@ LaTeX Info: Redefining \nameref on input line 84.
 \openout6 = `trading_bot.out'.
 
  ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 125.
+LaTeX Font Info:    Try loading font information for U+msa on input line 124.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 125.
+LaTeX Font Info:    Try loading font information for U+msb on input line 124.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1338,135 +1332,135 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] <fi
-gures/Loop.png, id=80, 718.685pt x 220.825pt>
+gures/Loop.png, id=83, 718.685pt x 220.825pt>
 File: figures/Loop.png Graphic file (type png)
 
 <use figures/Loop.png>
 Package pdftex.def Info: figures/Loop.png used on input line 161.
 (pdftex.def)             Requested size: 718.68324pt x 220.82445pt.
  [3 <./figures/Loop.png>] [4]
-<figures/psudo_code.png, id=101, 454.69875pt x 191.71625pt>
+<figures/psudo_code.png, id=107, 454.69875pt x 191.71625pt>
 File: figures/psudo_code.png Graphic file (type png)
 
 <use figures/psudo_code.png>
-Package pdftex.def Info: figures/psudo_code.png used on input line 214.
+Package pdftex.def Info: figures/psudo_code.png used on input line 217.
 (pdftex.def)             Requested size: 454.69763pt x 191.71577pt.
  [5 <./figures/psudo_code.png>]
-Overfull \hbox (6.08633pt too wide) in paragraph at lines 234--235
+Overfull \hbox (6.08633pt too wide) in paragraph at lines 240--241
 []\OT1/cmr/m/n/12 A neu-ral net-work with two hid-den lay-ers is im-ple-mented 
 us-ing Ten-sor-flow[][][] in our case. 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 240.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 246.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 240.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 246.
  [6] [7]
-<figures/ss_nn.png, id=125, 333.245pt x 238.8925pt>
+<figures/ss_nn.png, id=136, 333.245pt x 238.8925pt>
 File: figures/ss_nn.png Graphic file (type png)
  <use figures/ss_nn.png>
-Package pdftex.def Info: figures/ss_nn.png used on input line 262.
+Package pdftex.def Info: figures/ss_nn.png used on input line 270.
 (pdftex.def)             Requested size: 199.94853pt x 143.3366pt.
 
-<figures/roling_window.png, id=126, 536.0025pt x 540.51938pt>
+<figures/roling_window.png, id=137, 536.0025pt x 540.51938pt>
 File: figures/roling_window.png Graphic file (type png)
 
 <use figures/roling_window.png>
-Package pdftex.def Info: figures/roling_window.png used on input line 263.
+Package pdftex.def Info: figures/roling_window.png used on input line 271.
 (pdftex.def)             Requested size: 214.3972pt x 216.20392pt.
 
-<figures/training.png, id=127, 399.4925pt x 279.0425pt>
+<figures/training.png, id=139, 399.4925pt x 279.0425pt>
 File: figures/training.png Graphic file (type png)
 
 <use figures/training.png>
-Package pdftex.def Info: figures/training.png used on input line 273.
+Package pdftex.def Info: figures/training.png used on input line 281.
 (pdftex.def)             Requested size: 399.49152pt x 279.04181pt.
-
+ [8 <./figures/ss_nn.png> <./figures/roling_window.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./figures/ss_nn.png> <./figures/roling_window.png>] [9 <./figures/training.
-png>] <figures/aapl_portfolio.png, id=151, 1085.05376pt x 364.36125pt>
+[9 <./figures/training.png>]
+<figures/aapl_portfolio.png, id=163, 1085.05376pt x 364.36125pt>
 File: figures/aapl_portfolio.png Graphic file (type png)
 
 <use figures/aapl_portfolio.png>
-Package pdftex.def Info: figures/aapl_portfolio.png used on input line 302.
+Package pdftex.def Info: figures/aapl_portfolio.png used on input line 310.
 (pdftex.def)             Requested size: 455.24411pt x 152.86945pt.
 
-<figures/wwl_portfolio.png, id=152, 1096.095pt x 364.36125pt>
+<figures/wwl_portfolio.png, id=164, 1096.095pt x 364.36125pt>
 File: figures/wwl_portfolio.png Graphic file (type png)
 
 <use figures/wwl_portfolio.png>
-Package pdftex.def Info: figures/wwl_portfolio.png used on input line 310.
+Package pdftex.def Info: figures/wwl_portfolio.png used on input line 318.
 (pdftex.def)             Requested size: 455.24411pt x 151.33496pt.
 
-<figures/aapl_action_dql.png, id=153, 1137.24875pt x 370.38374pt>
+<figures/aapl_action_dql.png, id=165, 1137.24875pt x 370.38374pt>
 File: figures/aapl_action_dql.png Graphic file (type png)
 
 <use figures/aapl_action_dql.png>
-Package pdftex.def Info: figures/aapl_action_dql.png used on input line 318.
+Package pdftex.def Info: figures/aapl_action_dql.png used on input line 326.
 (pdftex.def)             Requested size: 477.64122pt x 155.5601pt.
 
-Overfull \hbox (22.39711pt too wide) in paragraph at lines 318--318
+Overfull \hbox (22.39711pt too wide) in paragraph at lines 326--326
  [] 
  []
 
-<figures/aapl_action_rand.png, id=154, 1137.24875pt x 370.38374pt>
+<figures/aapl_action_rand.png, id=166, 1137.24875pt x 370.38374pt>
 File: figures/aapl_action_rand.png Graphic file (type png)
 
 <use figures/aapl_action_rand.png>
-Package pdftex.def Info: figures/aapl_action_rand.png used on input line 319.
+Package pdftex.def Info: figures/aapl_action_rand.png used on input line 327.
 (pdftex.def)             Requested size: 477.64122pt x 155.5601pt.
 
-Overfull \hbox (22.39711pt too wide) in paragraph at lines 319--319
+Overfull \hbox (22.39711pt too wide) in paragraph at lines 327--327
  [][] 
  []
 
-<figures/aapl_action_bh.png, id=155, 1134.2375pt x 370.38374pt>
+<figures/aapl_action_bh.png, id=167, 1134.2375pt x 370.38374pt>
 File: figures/aapl_action_bh.png Graphic file (type png)
 
 <use figures/aapl_action_bh.png>
-Package pdftex.def Info: figures/aapl_action_bh.png used on input line 320.
+Package pdftex.def Info: figures/aapl_action_bh.png used on input line 328.
 (pdftex.def)             Requested size: 476.37651pt x 155.5601pt.
 
-Overfull \hbox (21.1324pt too wide) in paragraph at lines 320--320
+Overfull \hbox (21.1324pt too wide) in paragraph at lines 328--328
  [][] 
  []
 
 [10 <./figures/aapl_portfolio.png> <./figures/wwl_portfolio.png>]
-<figures/wwl_action_dql.png, id=164, 1142.2675pt x 370.38374pt>
+<figures/wwl_action_dql.png, id=177, 1142.2675pt x 370.38374pt>
 File: figures/wwl_action_dql.png Graphic file (type png)
 
 <use figures/wwl_action_dql.png>
-Package pdftex.def Info: figures/wwl_action_dql.png used on input line 329.
+Package pdftex.def Info: figures/wwl_action_dql.png used on input line 337.
 (pdftex.def)             Requested size: 479.74908pt x 155.5601pt.
 
-Overfull \hbox (24.50497pt too wide) in paragraph at lines 329--329
+Overfull \hbox (24.50497pt too wide) in paragraph at lines 337--337
  [] 
  []
 
-<figures/wwl_action_rand.png, id=165, 1142.2675pt x 370.38374pt>
+<figures/wwl_action_rand.png, id=178, 1142.2675pt x 370.38374pt>
 File: figures/wwl_action_rand.png Graphic file (type png)
 
 <use figures/wwl_action_rand.png>
-Package pdftex.def Info: figures/wwl_action_rand.png used on input line 330.
+Package pdftex.def Info: figures/wwl_action_rand.png used on input line 338.
 (pdftex.def)             Requested size: 479.74908pt x 155.5601pt.
 
-Overfull \hbox (24.50497pt too wide) in paragraph at lines 330--330
+Overfull \hbox (24.50497pt too wide) in paragraph at lines 338--338
  [][] 
  []
 
-<figures/wwl_action_bh.png, id=166, 1139.25626pt x 370.38374pt>
+<figures/wwl_action_bh.png, id=179, 1139.25626pt x 370.38374pt>
 File: figures/wwl_action_bh.png Graphic file (type png)
 
 <use figures/wwl_action_bh.png>
-Package pdftex.def Info: figures/wwl_action_bh.png used on input line 331.
+Package pdftex.def Info: figures/wwl_action_bh.png used on input line 339.
 (pdftex.def)             Requested size: 478.48438pt x 155.5601pt.
 
-Overfull \hbox (23.24026pt too wide) in paragraph at lines 331--331
+Overfull \hbox (23.24026pt too wide) in paragraph at lines 339--339
  [][] 
  []
 
@@ -1475,26 +1469,26 @@ Overfull \hbox (23.24026pt too wide) in paragraph at lines 331--331
 rand.png> <./figures/wwl_action_bh.png>] [13] (./trading_bot.bbl)
 Package atenddvi Info: Last page = 14.
  [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 350.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 358.
 
 (./trading_bot.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 350.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 350.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
 Package rerunfilecheck Info: File `trading_bot.out' has not changed.
 (rerunfilecheck)             Checksum: 9978BDE021BF90B4AEA1BAF1A0EF5B0D;563.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 350.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 358.
  ) 
 Here is how much of TeX's memory you used:
- 30795 strings out of 493014
- 557759 string characters out of 6133352
+ 30804 strings out of 493014
+ 557953 string characters out of 6133352
  663355 words of memory out of 5000000
- 33746 multiletter control sequences out of 15000+600000
- 18320 words of font info for 67 fonts, out of 8000000 for 9000
+ 33753 multiletter control sequences out of 15000+600000
+ 18022 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,9n,79p,10394b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -1514,10 +1508,10 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 16/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on trading_bot.pdf (14 pages, 1031416 bytes).
+Output written on trading_bot.pdf (14 pages, 1034549 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
  176 words of extra memory for PDF output out of 10000 (max. 10000000)
 

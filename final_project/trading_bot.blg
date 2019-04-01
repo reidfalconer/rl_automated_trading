@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: trading_bot.aux
 The style file: agsm.bst
 Database file #1: smo.bib.bib
-You've used 3 entries,
+You've used 5 entries,
             2909 wiz_defined-function locations,
-            657 strings with 5250 characters,
-and the built_in function-call counts, 10445 in all, are:
-= -- 1671
-> -- 141
+            667 strings with 5678 characters,
+and the built_in function-call counts, 26796 in all, are:
+= -- 4375
+> -- 407
 < -- 1
-+ -- 772
-- -- 42
-* -- 866
-:= -- 2136
-add.period$ -- 3
-call.type$ -- 3
-change.case$ -- 41
-chr.to.int$ -- 3
-cite$ -- 3
-duplicate$ -- 57
-empty$ -- 109
-format.name$ -- 53
-if$ -- 1883
++ -- 2146
+- -- 126
+* -- 2347
+:= -- 5310
+add.period$ -- 5
+call.type$ -- 5
+change.case$ -- 69
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 87
+empty$ -- 161
+format.name$ -- 143
+if$ -- 4819
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 4
-newline$ -- 12
-num.names$ -- 31
-pop$ -- 18
+missing$ -- 6
+newline$ -- 18
+num.names$ -- 53
+pop$ -- 26
 preamble$ -- 1
-purify$ -- 45
+purify$ -- 75
 quote$ -- 0
-skip$ -- 48
+skip$ -- 76
 stack$ -- 0
-substring$ -- 2320
-swap$ -- 14
-text.length$ -- 43
+substring$ -- 6238
+swap$ -- 18
+text.length$ -- 71
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
+type$ -- 18
 warning$ -- 0
-while$ -- 68
+while$ -- 110
 width$ -- 0
-write$ -- 42
+write$ -- 70
